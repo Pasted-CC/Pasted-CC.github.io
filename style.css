@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+
+html{
+	width: 100%;
+}
+
+
+
+body {
+	background-color: black;
+	display: flex;
+ 	justify-content: center;
+ 	font-family: 'Anonymous Pro', monospace;
+	color: green;
+	flex-direction: column;
+}
+a {
+    color:  green;
+}
+.typewritter h1 {
+	text-align: center;
+}
+.typewritter p {
+	width: 100%;
+	overflow:  hidden;
+
+	white-space:  nowrap;
+	margin: 0 auto;
+ 	letter-spacing: .15em;
+	text-align: center;
+
+}
+
+.footer-container {
+	margin-top: auto;
+
+	text-align: center;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.hrefs {
+	text-align: center;
+	font-size: larger;
+	margin-top: 30vh;
+}
